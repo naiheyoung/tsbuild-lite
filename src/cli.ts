@@ -6,9 +6,9 @@ const cli = cac('hello-cli')
 cli
   .command('hello <name>', 'Greet someone.')
   .option('--caps', 'Uppercase the name')
-  .action((name, options) => {
+  .action(async (name, options) => {
     const _name = options.caps ? name.toUpperCase() : name
-    hello(_name)
+    await hello(_name)
   })
 
 cli.help()
