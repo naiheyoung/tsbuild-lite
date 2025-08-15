@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "packageManager": "pnpm@10.13.1",
   "description": "A TypeScript library template with CJS + ESM + CLI support",
+  "homepage": "https://github.com/naiheyoung/tsbuild-lite#readme",
   "author": "Naihe",
   "license": "MIT",
   "type": "module",
@@ -45,5 +46,8 @@
     "rimraf": "^6.0.1",
     "tsup": "^8.5.0",
     "typescript": "^5.7.2"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
