@@ -1,5 +1,5 @@
 {
-  "name": "@breeze/tsbuild-lite",
+  "name": "@naiheyoung/tsbuild-lite",
   "version": "1.0.0",
   "packageManager": "pnpm@10.13.1",
   "description": "A TypeScript library template with CJS + ESM + CLI support",
